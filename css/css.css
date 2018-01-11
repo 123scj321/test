@@ -1,0 +1,122 @@
+    body{
+        margin-top:67px;
+        overflow-x: hidden;
+    }
+    #content{
+			padding-left:0;
+			padding-right:0;
+		}
+		.wh{
+			color:#fff;
+		}
+		.bl{
+			color:#000;
+		}
+		.ra{
+			position:relative;
+		}
+		.ab{
+			position:absolute;
+			bottom:0;
+		}
+		.abb{
+			position:absolute;
+		}
+		.txt{
+			top:10%;
+		}
+		h1,h2,h3,p{
+			margin:0;
+		}
+		.p_margin{
+			margin-top:15px;
+		}
+		#content .fly-top{
+			opacity: 0;
+			transform:translateY(100px);
+			transition:all 1.5s ease-out;
+		}
+		#content .ra:hover .fly-top{
+			opacity: 1;
+			transform:translateY(0);
+		}
+		#content .fly-right{
+			opacity: 0;
+			transform:translateX(-100px);
+			transition:all 1.5s ease-out;
+		}
+		#content .ra:hover .fly-right{
+			opacity: 1;
+			transform:translateX(0);
+		}
+		#content .fly-left{
+			opacity: 0;
+			transform:translateX(100px);
+			transition:all 1.5s ease-out;
+		}
+		#content .ra:hover .fly-left{
+			opacity: 1;
+			transform:translateX(0);
+		}
+		#content .fly-bottom{
+			opacity: 0;
+			transform:translateY(-100px);
+			transition:all 1.5s ease-out;
+		}
+		#content .ra:hover .fly-bottom{
+			opacity: 1;
+			transform:translateY(0);
+		}
+    /*设置导航栏的高度*/
+    #nav{
+        height:67px;
+        font-size:16px;
+    }
+    #nav a:hover{
+        text-decoration: none;
+    }
+    #nav .thumbnail:hover{
+        background: #c2c2c2;
+    }
+   /*logo*/
+   #logo{
+       width:131px;
+       height:31px;
+       margin-top:15px;
+       background: url("../imgs/index/img_con_base2.png") no-repeat -428px -313px;
+   }
+   #nav li a.dropdown-toggle{
+        padding-top:25px;
+       padding-bottom:22px;
+   }
+    #nav form{
+        margin-top:17px;
+    }
+     
+     /*轮播图*/
+
+    /*田字内容区*/
+     #section .row{
+         padding:4px 0;
+         background: linear-gradient(to bottom,#c5c5c5,#fff,#fff,#c5c5c5);
+     }
+     #section .row>div{
+         padding:0 4px;
+     }
+
+
+    /*底部*/
+    #footer{
+        background: url("../img/sns_bg.jpg") no-repeat;
+        color:#fff;
+		padding-top:50px;
+    }
+    #footer a{
+        color:#c0c0c0;
+        line-height:2;
+    }
+
+    #footer a:hover{
+        color:#fff;
+        text-decoration:none;
+    }
